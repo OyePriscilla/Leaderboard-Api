@@ -17,10 +17,10 @@ Clone this repository on to your local PC
 * Click on the Code green button
 * By the right end of the read-only input containing the repository link click the clipboard icon to copy the link
 * In your local PC, open your terminal in the folder you would like to clone the repository into
-* Clone the repository with the command: git clone (copied link); like so: https://github.com/OyePriscilla/Leaderboard
-* After the clone, type in the command cd ToDo-List to access the directory on the terminal.
+* Clone the repository with the command: git clone (copied link); like so: https://github.com/OyePriscilla/Leaderboard-Api
+* After the clone, type in the command cd Leaderboard-Api to access the directory on the terminal.
 
-- Once the files are on your machine, open the _To-do-list_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
+- Once the files are on your machine, open the Leaderboard-Api folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
 ## 🛠 Installation & Set Up
 
