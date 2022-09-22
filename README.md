@@ -6,6 +6,14 @@ LeaderBoard was built to learn the how to interprete API documentation, understa
 * CSS
 * JS
 
+## FrameWorks
+* Webpack
+* Jest
+* Babel
+
+## Demo Video and link
+ - [Demo link](https://oyepriscilla.github.io/Leaderboard-Api/)
+
 ## Getting Started
 
 Prerequisites
