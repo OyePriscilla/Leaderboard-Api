@@ -11,8 +11,8 @@ LeaderBoard was built to learn the how to interprete API documentation, understa
 * Jest
 * Babel
 
-## Demo Video and link
- - [Demo link](https://oyepriscilla.github.io/Leaderboard-Api/)
+## Demo link
+ - [Click here](https://oyepriscilla.github.io/Leaderboard-Api/)
 
 ## Getting Started
 
