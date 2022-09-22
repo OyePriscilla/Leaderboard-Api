@@ -3,41 +3,30 @@
 body {
   box-sizing: border-box;
   font-family: poppins, sans-serif;
+  background-color: #f1edd9;
 }
 
 .general-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  background-color: rgba(62, 90, 214, 0.925);
-  background-image:
-    url(/images/bone.png),
-    url(/images/bthree.png),
-    url(/images/bthree.png),
-    url(/images/bone.png);
-  background-position: right bottom, left top, right top, left bottom;
-  background-repeat: no-repeat;
+  align-items: center;
 }
 
 .flex-wrap {
   display: flex;
-  justify-content: space-between;
-  border: 13px solid #000;
-  box-shadow: -30px -30px rgb(151, 15, 15);
-  border-radius: 90px;
-  margin: auto auto;
-  width: 80%;
+  justify-content: center;
+  width: 90%;
 }
 
 .recent-display {
-  margin-left: 50px;
   width: 45%;
-  margin-right: 50px;
+  border: 5px solid #e4ddf4;
+  padding: 10px;
 }
 
 .h4-title {
   font-size: 28px;
-  color: #c9c9c9;
+  color: #000;
 }
 
 .dynamic-wrapper {
@@ -51,11 +40,11 @@ form {
 }
 
 .leaderboard-header {
-  display: flex;
-  margin: 50px auto;
+  margin: auto auto;
   text-align: center;
-  color: rgb(151, 15, 15);
-  font-size: 70px;
+  width: 60%;
+  color: #943d24;
+  font-size: 30px;
   text-shadow:
     0 1px 0 #ccc,
     0 2px 0 #c9c9c9,
@@ -71,34 +60,43 @@ form {
     0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
+.leaderboard-para {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #943d24;
+  padding: 10px;
+  width: 40%;
+  text-align: center;
+  color: #fffbf0;
+}
+
+footer h2 {
+  text-align: center;
+}
+
 .recent-scores {
   font-size: 20px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .recent-scores button,
 .submit-button {
   display: block;
-  margin-left: 20px;
-  border: 2px solid rgb(151, 15, 15);
+  border: 2px solid #943d24;
   border-radius: 19px;
-  box-shadow: 3px 3px rgb(151, 15, 15);
+  box-shadow: 3px 3px #943d24;
   height: 30px;
   background-color: inherit;
-  color: rgb(151, 15, 15);
+  color: #000;
   font-weight: 900;
   font-size: 20px;
 }
 
-.submit-button {
-  display: block;
-  margin-left: 20%;
-}
-
 .recent-scores button:hover,
 .submit-button:hover {
-  color: #c9c9c9;
+  color: #000;
 }
 
 .add-score-label {
@@ -107,6 +105,7 @@ form {
 
 .display-name,
 .display-score {
+  width: 96%;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 600;
@@ -124,10 +123,8 @@ form {
 }
 
 .form-wrapper {
-  width: 50%;
-  background-image: url(/images/btwo.png);
-  background-repeat: no-repeat;
-  background-position: 20px 450px;
+  width: 75%;
+  padding: 10px;
 }
 
 .submit-form {
@@ -136,15 +133,16 @@ form {
 
 .submit-form h4 {
   font-size: 28px;
-  color: #c9c9c9;
+  color: #000;
 }
 
 .item {
-  color: #c9c9c9;
-  border: 5px solid #c9c9c9;
+  color: #000;
+  border: 1px solid rgb(139, 135, 135);
   padding-left: 10px;
-  border-radius: 20px;
-  font-size: 24px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 3px;
 }
 
 .item:last-child {
@@ -152,5 +150,18 @@ form {
 }
 
 .item:nth-child(even) {
-  background-color: rgb(151, 15, 15);
+  background-color: #e4ddf4;
+}
+
+.form-Message {
+  border: 5px solid #e4ddf4;
+  padding: 0 20px;
+  width: 30%;
+}
+
+.warn,
+.hint {
+  color: red;
+  width: 75%;
+  display: none;
 }
