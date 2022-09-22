@@ -1,5 +1,5 @@
 # Leaderboard
-This website was built to learn the basics of callbacks, promises and API.
+LeaderBoard was built to learn the how to interprete API documentation, understand how to send and receive data from API. The name and score of the chess game players are sent to leaderboard API.
 
 ## Built With
 * HTML
